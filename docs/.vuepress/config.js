@@ -2,6 +2,7 @@ module.exports = {
     title: "surelee",
     description: "stay hungry stay foolish",
     lang: "zh-CN",
+    dest: public,
     head: [
         ["link", { rel: "icon", href: "/images/logo.jpg" }],
         ["link", { rel: "manifest", href: "/images/logo.jpg" }],
