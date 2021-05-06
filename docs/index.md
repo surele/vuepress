@@ -1,5 +1,6 @@
 ---
 home: true
+lang: zh-CN
 heroImage: /images/logo.jpg
 actionText: 进入 →
 actionLink: /blog/
