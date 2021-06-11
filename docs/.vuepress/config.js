@@ -23,20 +23,24 @@ module.exports = {
                 // link: "/markdown/",
                 items: [
                     {
+                        text: "知识库",
+                        items: [
+                            {
+                                text: "JS基础",
+                                link: "/blog/web/js"
+                            },
+                            {
+                                text: "vue",
+                                link: "/blog/web/vue"
+                            }
+                        ]
+                    },
+                    {
                         text: "工具",
                         items: [
                             {
                                 text: "npm发包",
                                 link: "/blog/tools/npm"
-                            }
-                        ]
-                    },
-                    {
-                        text: "知识库",
-                        items: [
-                            {
-                                text: "web前端",
-                                link: "/blog/web/vue"
                             }
                         ]
                     }
@@ -45,16 +49,16 @@ module.exports = {
             { text: "Github", link: "https://github.com/surele" }
         ],
         sidebar: {
-            "blog/tools/": [
-                {
-                    title: "工具",
-                    children: ["babel", "git", "learna", "npm"]
-                }
-            ],
             "blog/web/": [
                 {
                     title: "web基础",
                     children: ["js", "vue"]
+                }
+            ],
+            "blog/tools/": [
+                {
+                    title: "工具",
+                    children: ["babel", "git", "learna", "npm"]
                 }
             ]
         },

@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 heroImage: /images/logo.jpg
 actionText: 进入 →
-actionLink: /blog/
+actionLink: /blog/web/vue.html
 features:
     - title: 学习笔记
       details: 好记性不如烂笔头
