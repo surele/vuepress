@@ -1,7 +1,7 @@
 module.exports = {
     title: "surelee",
     description: "stay hungry stay foolish",
-    lang: "zh-CN",
+    lang: "zh-cmn-Hans",
     head: [
         ["link", { rel: "icon", href: "/images/logo.jpg" }],
         ["link", { rel: "manifest", href: "/images/logo.jpg" }],
@@ -20,26 +20,27 @@ module.exports = {
             {
                 text: "学习笔记",
                 icon: "reco-blog",
-                // link: "/markdown/",
                 items: [
+                    // 前端文档分组, 一般只链接到目录下的第一个md文件，其余md通过sidebar补充
                     {
-                        text: "知识库",
+                        text: "前端",
                         items: [
                             {
-                                text: "JS基础",
-                                link: "/blog/web/js"
+                                text: "vue",
+                                link: "/blog/web/vue/communication.md"
                             },
                             {
-                                text: "vue",
-                                link: "/blog/web/vue"
+                                text: "JS基础",
+                                link: "/blog/web/js/js.md"
                             }
                         ]
                     },
+                    // 工具类文档
                     {
                         text: "工具",
                         items: [
                             {
-                                text: "npm发包",
+                                text: "npm",
                                 link: "/blog/tools/npm"
                             }
                         ]
@@ -48,20 +49,33 @@ module.exports = {
             },
             { text: "Github", link: "https://github.com/surele" }
         ],
+        lastUpdated: "Last Updated", // string | boolean
         sidebar: {
-            "blog/web/": [
+            "/blog/web/vue/": [
                 {
-                    title: "web基础",
-                    children: ["js", "vue"]
+                    title: "6种通信方式",
+                    path: "/blog/web/vue/communication.md"
+                },
+                {
+                    title: "npm组件开发和发布",
+                    path: "/blog/web/vue/npm-plugin.md"
                 }
             ],
-            "blog/tools/": [
+            // "/blog/web/js": [
+            //     {
+            //         title: "主页",
+            //         collapsable: true,
+            //         // path: "/",
+            //         children: ["/blog/web/vue", "vue"]
+            //     }
+            // ],
+            "/": [
                 {
-                    title: "工具",
-                    children: ["babel", "git", "learna", "npm"]
+                    title: "主页",
+                    path: "/"
                 }
             ]
-        },
-        lastUpdated: "Last Updated" // string | boolean
+        }
+        // sidebarDepth: 3
     }
 };

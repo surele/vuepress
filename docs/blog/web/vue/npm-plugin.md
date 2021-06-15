@@ -1,7 +1,7 @@
 ---
-title: VUE基础
+title: vue 组件开发以及 npm 发包
 lang: zh-CN
-sidebar: "auto"
+# sidebar: "auto"
 prev: true
 next: true
 tags:
