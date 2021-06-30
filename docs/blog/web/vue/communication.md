@@ -10,6 +10,7 @@ publish: true
 ---
 
 # 6 种常见通信方式
+![通信方式](/images/communication.webp)
 
 -   父子通信
 
