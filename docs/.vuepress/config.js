@@ -59,6 +59,10 @@ module.exports = {
                 {
                     title: "npm组件开发和发布",
                     path: "/blog/web/vue/npm-plugin.md"
+                },
+                {
+                    title: "vue动态增加路由",
+                    path: "/blog/web/vue/addRouters.md"
                 }
             ],
             // "/blog/web/js": [
