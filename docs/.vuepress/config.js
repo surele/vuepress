@@ -44,6 +44,16 @@ module.exports = {
                                 link: "/blog/tools/npm"
                             }
                         ]
+                    },
+                    // 组件库开发
+                    {
+                        text: "组件库开发",
+                        items: [
+                            {
+                                text: "方案学习记录",
+                                link: "/blog/component/component-dev"
+                            }
+                        ]
                     }
                 ]
             },
